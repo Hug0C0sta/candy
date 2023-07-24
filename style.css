@@ -1,0 +1,33 @@
+body {
+    background-color: pink;
+}
+
+.remove-all-margin {
+    margin: 0 !important;
+}
+
+.row-div {
+    height: 100vh;
+}
+
+.nav-bar {
+    height: 5%;
+}
+
+.content-bottom-nav {
+    height: 95%;
+    width: 100%;
+    color: white;
+    background-color: blue;
+}
+
+.logo {
+    color: #f25278;
+}
+
+.teste {
+    background-color: #f25278;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+}
