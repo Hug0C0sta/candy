@@ -7,53 +7,103 @@
     <title>Candy Project</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row row-div">
-            <div class="col-lg">
-                <div class="row nav-bar">
-                    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
-                        <div class="container-fluid">
-                            <a class="navbar-brand logo" href="#">CANDY</a>
-                            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-      </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="#">HOME</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">ABOUT</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">TICKETS</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-                <div class="content-bottom-nav">
-                    <p class="m-0 p-0">MUSEUM/OF/CANDY</p>
-                    <p class="m-0 p-0">MUSEUM/OF/CANDY</p>
-                    <p class="m-0 p-0">MUSEUM/OF/CANDY</p>
-                    <p class="m-0 p-0">MUSEUM/OF/CANDY</p>
-                    <p class="m-0 p-0">MUSEUM/OF/CANDY</p>
-                    <p class="m-0 p-0">MUSEUM/OF/CANDY</p>
-                    <p class="m-0 p-0">MUSEUM/OF/CANDY</p>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 px-4 fixed-top">
+        <a href="#" class="navbar-brand">CANDY</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="navLinks">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">TICKETS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center content">
+            <div class="col-lg-6">
+                <div id="headerTitle" class="text-white text-center d-none d-lg-block">
+                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
                 </div>
             </div>
-            <div class="col-lg">
-                <img src="./imgs/hand2.png" class="img-fluid" />
+            <div class="col-lg-6">
+                <img class="img-fluid" src="./imgs/hand2.png" alt="hand2">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid px-0">
+        <div class="row content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img class="img-fluid" src="./imgs/milk.png" alt="hand2">
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center order-1 order-md-2 mb-5 mb-md-0">
+                <div class="col-lg-8 col-10 text-center">
+                    <h2>MUSEUM OF CANDY</h2>
+                    <img class="d-flex justify-content-center d-none d-lg-inline" src="./imgs/lolli_icon.png" href="lolipop" />
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut modi illo rem, distinctio suscipit atque assumenda, provident id commodi odio accusantium ducimus voluptatum necessitatibus cumque, pariatur expedita aperiam at veritatis!</p>
+                </div>
             </div>
         </div>
 
+        <div class="row content">
+            <div class="col-md-6 d-flex align-items-center justify-content-center mb-5 mb-md-0">
+                <div class="col-lg-8 col-10 text-center">
+                    <h2>MUSEUM OF CANDY</h2>
+                    <img class="d-flex justify-content-center d-none d-lg-inline" src="./imgs/lolli_icon.png" href="lolipop" />
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut modi illo rem, distinctio suscipit atque assumenda, provident id commodi odio accusantium ducimus voluptatum necessitatibus cumque, pariatur expedita aperiam at veritatis!</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="./imgs/gumball.png" alt="hand2">
+            </div>
+        </div>
 
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz " crossorigin="anonymous "></script>
+        <div class="row content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img class="img-fluid" src="./imgs/sprinkles.png" alt="hand2">
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center order-1 order-md-2 mb-5 mb-md-0">
+                <div class="col-lg-8 col-10 text-center">
+                    <h2>MUSEUM OF CANDY</h2>
+                    <img class="d-flex justify-content-center d-none d-lg-inline" src="./imgs/lolli_icon.png" href="lolipop" />
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut modi illo rem, distinctio suscipit atque assumenda, provident id commodi odio accusantium ducimus voluptatum necessitatibus cumque, pariatur expedita aperiam at veritatis!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            $(document).scroll(function() {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+
 </body>
 
 </html>

@@ -1,33 +1,59 @@
 body {
-    background-color: pink;
+    background-color: #f5d9d5;
+    font-family: 'Nunito', sans-serif;
 }
 
-.remove-all-margin {
-    margin: 0 !important;
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
 }
 
-.row-div {
-    height: 100vh;
-}
-
-.nav-bar {
-    height: 5%;
-}
-
-.content-bottom-nav {
-    height: 95%;
-    width: 100%;
+#mainNavbar .nav-link {
     color: white;
-    background-color: blue;
+    transition: color 0.4s;
 }
 
-.logo {
-    color: #f25278;
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
 }
 
-.teste {
-    background-color: #f25278;
-    width: fit-content;
-    height: fit-content;
-    align-items: center;
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+}
+
+#headerTitle span {
+    color: #ea1c2c;
+}
+
+#headerTitle h1 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.description {
+    color: #f408b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-bottom: 80px;
+}
+
+.navbar.scrolled {
+    background: rgb(222, 192, 222);
+    transition: background 500ms;
+}
+
+@media (max-width: 1300px) {
+    #headerTitle h1 {
+        font-size: 2.5rem;
+    }
 }
